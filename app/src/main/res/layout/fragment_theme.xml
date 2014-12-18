@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.hanna.piquest.ThemeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/selectedImage"
+            android:background="#ff84ffb1" />
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.07">
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageOne"
+                android:background="#ffffd854"
+                android:src="@android:drawable/star_big_off" />
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageTwo"
+                android:background="#ffef4dff" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageThree"
+                android:background="#ffff7060"
+                android:src="@android:drawable/ic_menu_help" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
